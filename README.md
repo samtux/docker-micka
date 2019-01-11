@@ -13,3 +13,7 @@ $ docker build -t samtux/micka .
 ```
 $ docker run --name micka -p 3080:80 -v $HOME/micka_db:/var/lib/postgresql/data samtux/micka
 ```
+
+Display in http://localhost:3080
+ 
+More documentation in https://github.com/hsrs-cz/Micka
